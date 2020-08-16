@@ -1,0 +1,14 @@
+{
+  "name": "node-typescript",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "license": "MIT",
+  "scripts": {
+    "tsc": "tsc",
+    "start": "yarn tsc && node dist/index.js"
+  },
+  "devDependencies": {
+    "tslint": "^6.1.3",
+    "typescript": "^3.9.7"
+  }
+}
